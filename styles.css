@@ -1,0 +1,59 @@
+#Avocado{
+    color: green;
+}
+
+h1{
+    margin-bottom: 40px;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(239, 136, 239);
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+
+.Ingredients{
+    border: solid;
+    box-shadow: 0 0 8px blue;
+    background-color: #b3c275;
+    animation-name: example;
+  animation-duration: 4s;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.preparation{
+    border: solid;
+    box-shadow: 0 0 8px blue;
+    background-color: #b3c275;
+    border-radius: 8px;
+    animation-name: example;
+    animation-duration: 4s;
+    cursor: pointer;
+}
+
+
+footer{
+    position: relative;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding: 30px 30px 30px 30px;
+}
+
+
+@keyframes example {
+    from {background-color: rgb(239, 136, 239);}
+    to {background-color: #b3c275;}
+  }
+
+
